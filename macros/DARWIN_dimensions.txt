@@ -1,0 +1,63 @@
+// up
+Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
+    0        0        0        0         1        0        0         0 m_pOuterLXePhysicalVolume initStep
+    1        0        0      875         1        0      875       875 BelowLiquidGridMesh Transportation
+    2        0        0      875         1        0     0.13       875 m_pOuterLXePhysicalVolume Transportation
+    3        0        0      879         1        0     3.53       879 InnerGXePhysicalVolume Transportation
+    4        0        0      882         1        0     3.33       882   AnodeMesh Transportation
+    5        0        0      882         1        0     0.13       882 InnerGXePhysicalVolume Transportation
+    6        0        0      889         1        0     6.87       889 TopGridMesh Transportation
+    7        0        0      889         1        0     0.13       889 InnerGXePhysicalVolume Transportation
+    8        0        0      895         1        0        6       895 QUPIDWindowNo286 Transportation
+    9        0        0      896         1        0      0.6       896 QUPIDPhotocathode Transportation
+   10        0        0      896         1        0      0.1       896 QUPIDPhotocathodeInterior Transportation
+   11        0        0      922         1        0     25.9       922 QUPIDBodyInterior Transportation
+   12        0        0      944         1        0     21.9       944    QUPIDAPD Transportation
+   13        0        0      967         1        0       23       967 QUPIDBaseAluminiumCoating Transportation
+   14        0        0      967         1        0      0.1       967 QUPIDBaseNo286 Transportation
+   15        0        0      972         1        0      4.9       972 InnerGXePhysicalVolume Transportation
+   16        0        0      992         1        0     20.3       992 m_pOuterLXePhysicalVolume Transportation
+   17        0        0      992         1        0      0.1       992        Bell Transportation
+   18        0        0      995         1        0        3       995 m_pOuterLXePhysicalVolume Transportation
+   19        0        0    1e+03         1        0        5     1e+03       Water Transportation
+   20        0        0 1.46e+03         1        0      463  1.46e+03 OuterCryostat Transportation
+   21        0        0 1.49e+03         1        0     24.5  1.49e+03       Water Transportation
+   22        0        0  5.3e+03         1        0 3.81e+03   5.3e+03   WaterTank Transportation
+   23        0        0  5.3e+03         1        0        2   5.3e+03         Lab Transportation
+   24        0        0    6e+03         1        0      700     6e+03  OutOfWorld Transportation
+
+
+// down
+Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
+    0        0        0        0         1        0        0         0 m_pOuterLXePhysicalVolume initStep
+    1        0        0     -874         1        0      874       874 CathodeMesh Transportation
+    2        0        0     -874         1        0     0.13       874 m_pOuterLXePhysicalVolume Transportation
+    3        0        0     -889         1        0     14.9       889 VeryBottomGridMesh Transportation
+    4        0        0     -889         1        0     0.13       889 m_pOuterLXePhysicalVolume Transportation
+    5        0        0     -896         1        0      7.5       896 QUPIDWindowNo572 Transportation
+    6        0        0     -897         1        0      0.6       897 QUPIDPhotocathode Transportation
+    7        0        0     -897         1        0      0.1       897 QUPIDPhotocathodeInterior Transportation
+    8        0        0     -923         1        0     25.9       923 QUPIDBodyInterior Transportation
+    9        0        0     -945         1        0     21.9       945    QUPIDAPD Transportation
+   10        0        0     -968         1        0       23       968 QUPIDBaseAluminiumCoating Transportation
+   11        0        0     -968         1        0      0.1       968 QUPIDBaseNo572 Transportation
+   12        0        0     -973         1        0      4.9       973 m_pOuterLXePhysicalVolume Transportation
+   13        0        0 -1.2e+03         1        0      225   1.2e+03       Water Transportation
+   14        0        0 -4.7e+03         1        0  3.5e+03   4.7e+03   WaterTank Transportation
+   15        0        0 -4.7e+03         1        0        2   4.7e+03         Lab Transportation
+   16        0        0   -6e+03         1        0  1.3e+03     6e+03  OutOfWorld Transportation
+
+//right
+Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
+    0        0        0        0         1        0        0         0 m_pOuterLXePhysicalVolume initStep
+    1      704        0        0         1        0      704       704         TPC Transportation
+    2      714        0        0         1        0       10       714 m_pOuterLXePhysicalVolume Transportation
+    3      744        0        0         1        0       30       744 InnerCryostat Transportation
+    4      754        0        0         1        0       10       754 CryostatVacuum Transportation
+    5      854        0        0         1        0      100       854 OuterCryostat Transportation
+    6      864        0        0         1        0       10       864       Water Transportation
+    7    5e+03        0        0         1        0 4.13e+03     5e+03   WaterTank Transportation
+    8    5e+03        0        0         1        0        2     5e+03         Lab Transportation
+    9    6e+03        0        0         1        0    1e+03     6e+03  OutOfWorld Transportation
+
+

@@ -1,0 +1,23 @@
+#
+# GEANT4 - XENON1TSIM_NEW pre_init macro
+#
+# A.P. Colijn 08-03-2012
+
+# selection of the cryostat design
+/Xe/detector/setCryostatType Columbia
+
+# selection of cryostat material
+#/Xe/detector/setCryostatMaterial TiGrade1
+ /Xe/detector/setCryostatMaterial SS316Ti
+
+# physics list to select
+/run/physics/setEMlowEnergyModel emlivermore
+/run/physics/setHadronicModel    QGSP_BERT_HP
+/run/physics/setCerenkov         false
+
+# switch OFF TPC
+/Xe/detector/setTPC false
+#
+# do you wish to check the geometry for overlapping objects? 
+#
+#/Xe/detector/setCheckOverlap true

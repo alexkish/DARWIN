@@ -1,0 +1,19 @@
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+/xe/gun/verbose 0
+
+/xe/gun/type Volume
+/xe/gun/shape Cylinder
+/xe/gun/radius 100 cm
+/xe/gun/halfz 40. mm
+/xe/gun/center 0 0 -1130. mm
+/xe/gun/confine CathodeGridRing* VeryBottomGridRing*
+
+/xe/gun/energy 0 keV
+/xe/gun/particle ion
+
+#/grdm/nucleusLimits 228 232 89 90
+/xe/gun/ion 90 232 0 0
+

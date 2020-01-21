@@ -1,0 +1,30 @@
+#VERBOSITY
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+#SCINTILLATION
+/Xe/detector/setLXeScintillation false
+
+#AP playground
+/run/forced/setVarianceReduction false
+
+
+#SEED
+/run/random/setRandomSeed 0
+
+#ANGULAR SPECTRUM
+/xe/gun/angtype iso
+
+/xe/gun/type Volume
+/xe/gun/shape Cylinder
+/xe/gun/center 0. 0. 0. cm
+/xe/gun/radius 100 cm
+/xe/gun/halfz 125 cm
+
+/xe/gun/confine OuterCryostat
+
+/xe/gun/particle neutron
+/xe/gun/energytype Spectrum
+/xe/gun/energyspectrum ./steel_Th228.dat
