@@ -1,0 +1,17 @@
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+/xe/gun/verbose 0
+
+/xe/gun/type Volume
+/xe/gun/shape Cylinder
+/xe/gun/radius 120 cm
+/xe/gun/halfz 150 cm
+/xe/gun/center 0 0 0 cm
+/xe/gun/confine OuterCryostat*
+
+/xe/gun/particle neutron
+/xe/gun/energytype Spectrum
+/xe/gun/energyspectrum /home/physik/alexkish/geant4/Xe1T/SVN/macros/neutrons/SPECTRA/copper_U235.dat
+
