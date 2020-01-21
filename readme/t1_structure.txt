@@ -1,0 +1,21 @@
+^^Branch name^Type^Description^^
+||eventid	|int	|event ID||
+||etot	|float	|total deposited energy||
+||nsteps	|int	|number of energy deposition steps||
+||pmthits	|vector<int>	|number of photon hits per PMT||
+||trackid	|vector<int>	|ID of the particle/track||
+||type	|vector<string>	|type of particle||
+||parentid	|vector<int>	|ID of the parent particle/track||
+||parenttype	|vector<string>	|type of the parent particle||
+||creaproc	|vector<string>	|creator process||
+||edproc	|vector<string>	|energy deposition process||
+||xp	|vector<float>	|X position of the step||
+||yp	|vector<float>	|Y position of the step||
+||zp	|vector<float>	|Z position of the step||
+||ed	|vector<float>	|energy deposited in a single step||
+||time	|vector<float>	|time of the step||
+||type_pri	|vector<string>	|type of the primary particle||
+||xp_pri	|vector<float>	|X position of the primary particle||
+||yp_pri	|vector<float>	|Y position of the primary particle||
+||zp_pri	|vector<float>	|Z position of the primary particle||
+||e_pri	|vector<float>	|energy deposition of the primary particle||

@@ -1,0 +1,11 @@
+^^Branch name^Type^Description^^
+||eventid	|int	|event ID||
+||etot	|float	|total deposited energy||
+||ns	|int	|number of resolved scattering (3 mm resolution)||
+||ed	|float ed[ns]	|energy deposited in every resolved scattering||
+||xp	|float xp[ns]	|X position of each resolved scattering||
+||yp	|float yp[ns]	|Y position of each resolved scattering||
+||zp	|float zp[ns]	|Z position of each resolved scattering||
+||xp_pri	|vector<float>	|X position of the primary particle||
+||yp_pri	|vector<float>	|Y position of the primary particle||
+||zp_pri	|vector<float>	|Z position of the primary particle||
